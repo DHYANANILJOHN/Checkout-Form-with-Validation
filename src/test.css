@@ -1,0 +1,35 @@
+.checkout-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #a8e6cf, #dcedc1); /* light green gradient */
+  padding: 20px;
+}
+
+.checkout-card {
+  max-width: 500px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(123, 182, 94, 0.25); /* soft green focus */
+  border-color: #7bb65e;
+}
+
+.btn-gradient {
+  background: linear-gradient(45deg, #7bb65e, #a8d5ba); /* green gradient button */
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(45deg, #a8d5ba, #7bb65e);
+}
+
+.order-summary {
+  background-color: #e6f2d9; /* light green summary box */
+}
